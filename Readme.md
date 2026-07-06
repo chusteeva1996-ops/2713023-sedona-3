@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Светлана Чустеева](https://up.htmlacademy.ru/htmlcss-individual/3/user/2713023).
-* Наставник: [Анна Лисененкова]().
+* Наставник: [Анна Лисененкова](https://htmlacademy.ru/profile/ankhena).
 * Сайт: [Мой проект Седона](https://chusteeva1996-ops.github.io/2713023-sedona-3/)
 ---
 
