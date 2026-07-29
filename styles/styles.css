@@ -1,0 +1,257 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+  background-color:#ffffff;
+}
+
+.page-header {
+  color:#000000;
+  background:#ffffff;
+}
+
+.logo-link {
+  background-position: left;
+  margin-left: 70px;
+  margin-right: 28px;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color:#000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.welcome {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero {
+  background-color:cadetblue;
+  background-image: url("../images/svg/decoration.svg"), url("../images/decoration-jpg/background-main.jpg");
+  background-size: 1200px auto, 1200px auto;
+  background-repeat: no-repeat;
+  background-position: bottom center, center;
+  min-height: 485px;
+  width: 100%;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.description-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.description-item-1 {
+ background-color: #83B3D3;
+}
+
+.description-item-2 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.description-item-3 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.description-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: PT Sans;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color:#000000;
+}
+
+span {
+  color:#333333;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+
+.services-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.services-item {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.plans {
+  text-align: center;
+}
+
+.result {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.description-text {
+  font-style: regular;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.services {
+  text-align: center;
+}
+
+.services-item {
+  text-align: center;
+}
+
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color:#ffffff;
+  background-color:darkgrey;
+  background-image: url("../images/decoration-jpg/subscribe.jpg");
+  background-size: 1200px auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 414.86px;
+}
+
+.subscribe-text {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.text-white {
+  color:#ffffff;
+}
+
+.contacts {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  color:#000000;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.page-footer {
+  color:#000000;
+  background:#ffffff;
+}
+
+.page-footer a {
+  color:#000000;
+  text-decoration: none;
+}
+
+.logo-dev {
+  float: right;
+  background-image: url("../images/svg/html-academy.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 115px;
+  height: 33px;
+}
+
+.hero-text-catalog {
+  color:#000000;
+  background-color:darkgrey;
+  background-image: url("../images/decoration-jpg/catalog-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 412px;
+}
+
+.subscribe-catalog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color:#000000;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
